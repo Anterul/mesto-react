@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Card({card, onCardClick}) {
+function Card({card, onCardClick, handleImagePopup}) {
 
   function handleCardClick() {
     onCardClick(card);
+    handleImagePopup();
   }
 
   return (

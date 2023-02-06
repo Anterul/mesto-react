@@ -2,7 +2,7 @@ import React from 'react';
 import api from '../utils/Api';
 import Card from './Card';
 
-function Main({onEditAvatar, onEditProfile, onAddPlace, onCardClick}) {
+function Main({onEditAvatar, onEditProfile, onAddPlace, onCardClick, handleImagePopup}) {
 
   const [userName, setUserName] = React.useState('');
   const [userDescription, setUserDescription] = React.useState('');
@@ -61,11 +61,12 @@ function Main({onEditAvatar, onEditProfile, onAddPlace, onCardClick}) {
           </button>
       </section>
       <section className="cards">
-        {cards.map((card, id) => (
+        {cards.map((card) => (
           <Card
             card={card}
-            key={id}
+            key={card._id}
             onCardClick={onCardClick}
+            handleImagePopup={handleImagePopup}
           />
         ))}
       </section>

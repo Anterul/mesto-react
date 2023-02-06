@@ -51,13 +51,13 @@
 
 ## Установка:
 1. Выполните команду для клонирования репозитория:  
-    `git clone https://github.com/Anterul/mesto-react.git`  
+  > git clone https://github.com/Anterul/mesto-react.git  
 2. Переместитесь в корневую папку проекта и введите комнду в консоли. Процесс установки может занять несколько минут:  
-    `npx create-react-app mesto-react`
+  > npx create-react-app mesto-react  
 3. После завершения установки введите команду:  
-    `npm start`  
+  > npm start  
 4. После этого проект автоматически откроется в браузере. Если этого не произошло, откройте проект в браузере, введя адрес  
-    `http://localhost:3000/`  
+  > http://localhost:3000/`  
 
 ---
 
