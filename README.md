@@ -1,16 +1,14 @@
-# Mesto React
+# Mesto React <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="React" style="width: 20px;"/>  
 
 ## Учебная проектная работа 10 от [Яндекс.Практикум](https://practicum.yandex.ru/)
 
----
-
 ## Описание проекта:
-  Mesto - это социальная сеть, где пользователи могут добавлять карточки с изображением и подписью,
+  **Mesto** - это социальная сеть, где пользователи могут добавлять карточки с изображением и подписью,
   их(карточки) можно лайкать и удалять.
 
----
+## Приложение **Mesto React** на [GitHub Pages](https://anterul.github.io/mesto-react/) <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg" alt="GitHub" width="20px"/>
 
-## Макеты в Figma:
+## Макеты в <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg" alt="Figma" width="15px"/> Figma:
 - [Макет 1](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
 - [Макет 2](https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=0%3A1)
 - [Макет 3](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=0%3A1)
@@ -29,19 +27,19 @@
 
 ---
 
-## Используемые технологии:
-  * HTML5
-  * CSS3:
+## Используемые технологии:  
+  * <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original.svg" alt="HTML5" width="10px"/> HTML5
+  * <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg" alt="CSS3" width="10px"/> CSS3:
     - Flexbox
     - Grid Layout
     - Adaptive UI
     - Методология web-разработки BEM, фйловая структура BEM-Nested
-  * JavaScript:
+  * <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg" alt="Javascript" width="10px"/> JavaScript:
     - ООП
     - Асинхронность
     - Promise
     - API
-  * React JS:
+  * <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="React" width="10px"/> React JS:
     - Create React App
     - JSX
     - Функциональные компоненты
@@ -50,12 +48,11 @@
 ---
 
 ## Установка:  
-<br/>
-Выполните команду для клонирования репозитория:
+Клонируйте репозиторий <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bash/bash-original.svg" alt="Bash" width="10px"/> :
 
     git clone https://github.com/Anterul/mesto-react.git
 
-Переместитесь в корневую папку проекта и введите комнду в консоли. Процесс установки может занять несколько минут:
+Перейдите в директорию, в которую был клонирован проект, введите комнду. Процесс установки может занять несколько минут:
 
     npx create-react-app mesto-react
 
@@ -66,8 +63,8 @@
 После этого проект автоматически откроется в браузере. Если этого не произошло, откройте проект в браузере, введя адрес:
 
 
-    http://localhost:3000/
+    http://localhost:3000/  
 
+Необходимые приложения для ввода команд: &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg" alt="Git" width="10px"/> [Git](https://git-scm.com/download/win) &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg" alt="Node.js" width="10px"/> [Node.js](https://nodejs.org/ru/)  
 
---- 
-Ссылка на [GitHub Pages](https://anterul.github.io/mesto-react/)
+---
