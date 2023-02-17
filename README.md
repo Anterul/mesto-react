@@ -1,4 +1,4 @@
-# Mesto React <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="React" style="width: 20px;"/>  
+# Mesto React <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="React" style="width: 20px;"/>
 
 ## Учебная проектная работа 10 от [Яндекс.Практикум](https://practicum.yandex.ru/)
 
