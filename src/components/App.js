@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState }from 'react';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
@@ -11,21 +11,21 @@ import AddPlacePopup from './AddPlacePopup';
 import DeleteCardPopup from './DeleteCardPopup';
 
 function App() {
-  const [isEditAvatarPopupOpen, setIsEditAvatarPopupOpen] = React.useState(false);
-  const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = React.useState(false);
-  const [isAddPlacePopupOpen, setIsAddPlacePopupOpen] = React.useState(false);
-  const [isImagePopupOpen, setIsImagePopupOpen] = React.useState(false);
-  const [selectedCard, setSelectedCard] = React.useState(null);
-  const [currentUser, setCurrentUser] = React.useState({
+  const [isEditAvatarPopupOpen, setIsEditAvatarPopupOpen] = useState(false);
+  const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = useState(false);
+  const [isAddPlacePopupOpen, setIsAddPlacePopupOpen] = useState(false);
+  const [isImagePopupOpen, setIsImagePopupOpen] = useState(false);
+  const [selectedCard, setSelectedCard] = useState(null);
+  const [currentUser, setCurrentUser] = useState({
     userName: '',
     userDescription: '',
     userAvatar: '',
     _id: ''
   });
-  const [cards, setCards] = React.useState([]);
-  const [buttonText, setButtonText] = React.useState('Сохранить');
-  const [addPlacePopupButtonText, setAddPlacePopupButtonText] = React.useState('Создать');
-  const [isDeleteCardPopupOpen, setIsDeleteCardPopupOpen] = React.useState(false);
+  const [cards, setCards] = useState([]);
+  const [buttonText, setButtonText] = useState('Сохранить');
+  const [addPlacePopupButtonText, setAddPlacePopupButtonText] = useState('Создать');
+  const [isDeleteCardPopupOpen, setIsDeleteCardPopupOpen] = useState(false);
  
   function handleEditAvatarClick() {
     setIsEditAvatarPopupOpen(true);
@@ -54,8 +54,7 @@ function App() {
     setIsDeleteCardPopupOpen(false)
   }
 
-  React.useEffect(() => {
-
+  useEffect(() => {
     Promise.all([
       api.getUserInfo('https://nomoreparties.co/v1/cohort-57/users/me'),
       api.getInitialCards()

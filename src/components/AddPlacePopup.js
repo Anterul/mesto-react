@@ -1,10 +1,15 @@
-import React from 'react';
+import { useEffect, useState }from 'react';
 import PopupWithForm from './PopupWithForm';
 
 function AddPlacePopup(props) {
   
-  const [cardName, setCardName] = React.useState('');
-  const [cardLink, setCardLink] = React.useState('');
+  const [cardName, setCardName] = useState('');
+  const [cardLink, setCardLink] = useState('');
+
+  useEffect(() => {
+    setCardName('');
+    setCardLink('');
+  }, [props.isOpen])
 
   function handleCardNameChange(e) {
     setCardName(e.target.value);
@@ -38,7 +43,7 @@ function AddPlacePopup(props) {
         id="cardName"
         type="text"
         name="name"
-        defaultValue=""
+        value={cardName}
         placeholder="Название"
         minLength="2"
         maxLength="30"
@@ -51,7 +56,7 @@ function AddPlacePopup(props) {
         id="cardLink"
         type="text"
         name="link"
-        defaultValue=""
+        value={cardLink}
         placeholder="Ссылка на картинку"
         required
       />

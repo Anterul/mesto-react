@@ -1,5 +1,3 @@
-import React from 'react';
-
 function PopupWithForm(props) {
   return (
     <div className={`popup popup_name_${props.name} ${props.isOpen ? `popup_opened` : ""}`}>
@@ -11,7 +9,6 @@ function PopupWithForm(props) {
           name={props.name}
           id={props.name}
           onSubmit={props.onSubmit}
-          noValidate
         >
           {props.children}
           <button className="popup__save-button" type="submit">{props.buttonText}</button>

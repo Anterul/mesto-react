@@ -1,8 +1,12 @@
-import React from 'react';
+import { useRef, useEffect } from 'react';
 import PopupWithForm from './PopupWithForm';
 
 function EditAvatarPopup(props) {
-  const inputRef = React.useRef(null);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.value = '';
+  }, [props.isOpen]);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -27,7 +31,6 @@ function EditAvatarPopup(props) {
         id="cardAvatar"
         type="text"
         name="avatar"
-        defaultValue=""
         placeholder="Ссылка на аватар"
         required
       />
