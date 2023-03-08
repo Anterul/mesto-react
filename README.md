@@ -1,18 +1,18 @@
 # Mesto React <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="React" style="width: 20px;"/>
 
-## Учебная проектная работа 12 от [Яндекс.Практикум](https://practicum.yandex.ru/)
+## Учебная проектная работа 10 от [Яндекс.Практикум](https://practicum.yandex.ru/)
 
 ## Описание проекта:
-  **Mesto** - это социальная сеть, где пользователь может зарегистрироваться/войти в свою учётную запись, добавлять/лайкать/удалять карточки с изображением и подписью, изменять информацию о себе в личном профиле.
+  **Mesto** - это социальная сеть, где пользователи могут добавлять карточки с изображением и подписью,
+  их(карточки) можно лайкать и удалять.
 
-## Приложение **Mesto React** на [GitHub Pages](https://anterul.github.io/react-mesto-auth/) <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg" alt="GitHub" width="20px"/>
+## Приложение **Mesto React** на [GitHub Pages](https://anterul.github.io/mesto-react/) <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg" alt="GitHub" width="20px"/>
 
 ## Макеты в <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg" alt="Figma" width="15px"/> Figma:
 - [Макет 1](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
 - [Макет 2](https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=0%3A1)
 - [Макет 3](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=0%3A1)
 - [Макет 4](https://www.figma.com/file/PSdQFRHoxXJFs2FH8IXViF/JavaScript-9-sprint?node-id=0%3A1)
-- [Макет 5](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/JavaScript.-Sprint-12?node-id=4453-181&t=xBJZzhpkbjjgb1iM-0)
 
 ---
 
@@ -24,10 +24,7 @@
     - для добавления нового аватара
     - для просмотра картинки в полном рамере
   * Загрузка карточек с изображениями происходит с сервера nomoreparties.co.
-  * Удаление, добавление и лайк карточек
-  * Изменение своего аватара
-  * Изменение иформации в личном профиле
-  * Идентификация, Аутентификация, Авторизация в приложении
+
 ---
 
 ## Используемые технологии:  
@@ -47,23 +44,17 @@
     - JSX
     - Функциональные компоненты
     - Хуки
-    - React Router DOM
-    - JWT
-    - Поднятие стйта
-    - Глобальный стейт
-    - Подписка на контекст
-    - ProtectedRoute
 
 ---
 
 ## Установка:  
 Клонируйте репозиторий <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bash/bash-original.svg" alt="Bash" width="10px"/> :
 
-    git clone https://github.com/Anterul/react-mesto-auth
+    git clone https://github.com/Anterul/mesto-react.git
 
 Перейдите в директорию, в которую был клонирован проект, введите комнду. Процесс установки может занять несколько минут:
 
-    npx create-react-app react-mest-auth
+    npx create-react-app mesto-react
 
 После завершения установки введите команду:
 
